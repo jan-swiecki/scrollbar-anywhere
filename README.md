@@ -7,6 +7,18 @@ If you want grab-and-drag style scrolling, just set it up in the options.
 
 The extension is based on the [Wet Banana extension](https://github.com/jedediah/wetbanana) and inspired by Scrollbar Anywhere for Firefox.
 
+Building
+--------
+
+Build zip distribution into `build` folder:
+
+    npx grunt
+
+Development
+-----------
+
+You can load this extension in Chrome using `src` as target extension folder. Grunt build just zips src folder with appropriate filename.
+
 Change Log
 ----------
 
